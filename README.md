@@ -35,5 +35,6 @@ Algorithm
 	
 ___________________________________________________________________________
 	
-	![image](https://user-images.githubusercontent.com/51989303/121158073-b479cd00-c867-11eb-8d02-e1f8773eca7f.png)
+Fail-Safe. 1. Exception. Any changes in the collection, such as adding, removing and updating collection during a thread are iterating collection then Fail fast throw concurrent modification exception. The fail-safe collection doesn't throw exception.
+
 
